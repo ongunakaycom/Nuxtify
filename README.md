@@ -1,4 +1,4 @@
-# 🛠️ CommonShare Technical Assessment - Nuxt Project
+# 🛠️ Nuxtify – A sleek, Nuxt-powered framework that accelerates modern web development with built-in CI/CD, testing, and responsive dashboards.
 
 A professional Nuxt 3 project for demonstrating frontend and full-stack skills. This project includes a dashboard, user management interface, and responsive design. Emphasis is placed on modern DevOps practices, CI/CD integration, and test automation.  
 
