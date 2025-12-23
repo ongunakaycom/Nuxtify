@@ -1,35 +1,53 @@
-# 🛠️ Nuxtify – A sleek, Nuxt-powered framework that accelerates modern web development with built-in CI/CD, testing, and responsive dashboards.
+# Nuxtify 🚀
 
-A professional Nuxt 3 project for demonstrating frontend and full-stack skills. This project includes a dashboard, user management interface, and responsive design. Emphasis is placed on modern DevOps practices, CI/CD integration, and test automation.  
-
----
-
-## 📸 Preview
-
-![Project Screenshot](public/favicon.ico)  
-> Clean, modern design powered by Nuxt 3, Vue 3, and TypeScript.
+A sleek **Nuxt 3 framework** project designed to accelerate modern web development with built-in **CI/CD**, testing, and responsive dashboards.
 
 ---
 
-## 🚀 Tech Stack
+## About the Project
 
-| Category        | Technology                                  |
-|----------------|---------------------------------------------|
-| Frontend       | Nuxt 3, Vue 3, TypeScript                   |
-| State/Store    | Vuex / Pinia (if used)                      |
-| Forms & Validation | VeeValidate / Custom Form Handling       |
-| Icons          | Font Awesome / Custom SVGs                  |
-| Animations     | Vue Transitions / CSS Animations            |
-| DevOps/CI      | GitHub Actions                              |
-| Testing        | Vitest, Vue Test Utils                       |
-| Build Tool     | Vite                                        |
+Nuxtify is a professional **Nuxt 3** project demonstrating full-stack and frontend skills.
+It includes a **dashboard**, **user management interface**, and **responsive design**. Focus is placed on modern **DevOps practices**, **CI/CD integration**, and **automated testing**.
 
 ---
 
-## 📂 Project Structure
+## Preview
+
+![Project Screenshot](public/favicon.ico)
+
+> Clean, modern design powered by **Nuxt 3**, **Vue 3**, and **TypeScript**.
+
+---
+
+## Features
+
+* Full-featured dashboard with **summary cards**.
+* Admin interface for **user management**.
+* SPA navigation with **role-based access control**.
+* Responsive UI using **Bootstrap**.
+* Built-in **CI/CD workflows** with GitHub Actions.
+* Unit and integration tests with **Vitest**.
+
+---
+
+## Tech Stack
+
+| Category           | Technology                       |
+| ------------------ | -------------------------------- |
+| Frontend           | Nuxt 3, Vue 3, TypeScript        |
+| State Management   | Pinia / Vuex                     |
+| Forms & Validation | VeeValidate / Custom Handling    |
+| Icons              | Font Awesome / Custom SVGs       |
+| Animations         | Vue Transitions / CSS Animations |
+| DevOps / CI        | GitHub Actions                   |
+| Testing            | Vitest, Vue Test Utils           |
+| Build Tool         | Vite                             |
+
+---
+
+## Project Structure
 
 ```
-
 CommonShare-technical-assessment/
 ├── .github/workflows/    # GitHub Actions CI/CD workflows
 ├── app/                  # Vue components / pages
@@ -37,37 +55,36 @@ CommonShare-technical-assessment/
 │   ├── dashboard.vue
 │   └── users.vue
 ├── plugins/              # Nuxt plugins
-├── public/               # Static assets
+├── public/               # Static assets (favicon, robots.txt, users.json)
 ├── tests/                # Unit & integration tests
 │   ├── app.test.ts
 │   └── setup.ts
 ├── nuxt.config.ts        # Nuxt configuration
 ├── package.json          # Project metadata & scripts
-├── tsconfig.json         # TypeScript config
-├── vitest.config.ts      # Vitest config
+├── tsconfig.json         # TypeScript configuration
+├── vitest.config.ts      # Vitest configuration
 └── README.md             # Project documentation
-
-````
+```
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
-git clone d:/GitHub/CommonShare-technical-assessment/
-cd CommonShare-technical-assessment
+git clone https://github.com/ongunakaycom/Nuxtify.git
+cd Nuxtify
 
 # Install dependencies
 npm install
 
-# Run in development
+# Run in development mode
 npm run dev
-````
+```
 
 ---
 
-## 🧪 Run Tests
+## Running Tests
 
 ```bash
 npm run test
@@ -75,7 +92,7 @@ npm run test
 
 ---
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -84,15 +101,15 @@ npm run preview
 
 ---
 
-## ⚙️ GitHub Actions (CI/CD)
+## GitHub Actions (CI/CD)
 
-This project uses **GitHub Actions** to:
+The project uses GitHub Actions to:
 
 * ✅ Run build and lint checks on pull requests
 * 🧪 Run tests automatically
-* 🚀 Deploy to hosting platforms like Netlify, Vercel, or GitHub Pages
+* 🚀 Deploy to platforms like Netlify, Vercel, or GitHub Pages
 
-> Sample workflow file: `.github/workflows/ci.yml`
+**Sample workflow (`.github/workflows/ci.yml`):**
 
 ```yaml
 name: Nuxt CI/CD
@@ -119,28 +136,27 @@ jobs:
 
 ---
 
-## 🤝 Contributions
+## Contribution
 
-PRs and feedback are welcome! Feel free to fork, contribute, or improve upon this project.
+Contributions, PRs, and feedback are welcome!
+Feel free to **fork**, **improve**, or **experiment** with the project.
 
 ---
 
-## 📜 License
+## License
 
-This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## About Me
 
-I'm Ongun Akay, a Senior Full-Stack Developer with expertise across various technologies.
+Hi, I’m **Ongun Akay**, a Senior Full-Stack Developer specializing in frontend and backend technologies.
 
-* 👀 I specialize in full-stack development with extensive experience in frontend and backend technologies.
-* 🌱 Currently, I'm sharpening my skills in advanced web development.
-* 💞️ I’m always open to exciting collaborations and challenging projects.
-* 📫 You can reach me at [info@ongunakay.com](mailto:info@ongunakay.com).
+* 🌐 Website: [ongunakay.com](https://ongunakay.com)
+* 💼 LinkedIn: [linkedin.com/in/ongunakay](https://linkedin.com/in/ongunakay)
+* 🧑‍💻 GitHub: [github.com/ongunakaycom](https://github.com/ongunakaycom)
+* 📬 Email: [info@ongunakay.com](mailto:info@ongunakay.com)
 
-- 🌐 Website: [ongunakay.com](https://ongunakay.com)
-- 💼 LinkedIn: [linkedin.com/in/ongunakay](https://linkedin.com/in/ongunakay)
-- 🧑‍💻 GitHub: [github.com/ongunakaycom](https://github.com/ongunakaycom)
-- 📬 Email: [info@ongunakay.com](mailto:info@ongunakay.com)
+I’m always open to **collaborations**, challenging projects, and opportunities to improve my skills.
+
